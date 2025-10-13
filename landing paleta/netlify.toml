@@ -1,0 +1,12 @@
+# Configuración de Netlify para JUGÁ Y GANÁ
+[build]
+  # Dejá vacío si solo subís un HTML estático
+  command = ""
+  # Directorio que Netlify publicará (donde está tu index.html)
+  publish = "./"
+
+# Redirección para evitar errores 404 si más adelante agregás rutas
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
