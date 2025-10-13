@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>JUGÁ Y GANÁ — Bono & Usuario Gratis</title>
+  <meta name="description" content="Jugá y ganá: pedí tu bono y usuario gratis por WhatsApp. Casino legal. Juego responsable." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0a0f1f;
+      --panel:#10172a;
+      --gold:#ffcc00;
+      --sunset:#ff8a00;
+      --mint:#00d1b2;
+      --muted:#a8b2c3;
+      --glass: rgba(255,255,255,.06);
+      --shadow: 0 20px 60px rgba(0,0,0,.50);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family:'Montserrat',system-ui,Arial; color:#eef3ff; background:var(--bg);
+      display:flex; align-items:center; justify-content:center; padding:24px;
+      background-image: radial-gradient(700px 400px at 100% 0%, rgba(255,204,0,.06), transparent 40%),
+                        radial-gradient(600px 360px at 0% 100%, rgba(0,209,178,.06), transparent 40%);
+    }
+    .wrap{width:100%; max-width:1100px;}
+
+    .hero{
+      position:relative; overflow:hidden; border-radius:22px; box-shadow:var(--shadow);
+      background: linear-gradient(180deg, rgba(0,0,0,.45), rgba(10,15,31,.85)),
+                  url('https://images.unsplash.com/photo-1544986581-efac024faf62?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+      border:1px solid rgba(255,255,255,.06);
+    }
+    .hero-inner{display:grid; grid-template-columns: 1.2fr .8fr; gap:0;}
+    .hero-left{padding:36px 36px 28px 36px}
+    .badge{display:inline-flex; gap:8px; align-items:center; padding:8px 12px; border-radius:999px; background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.14); font-weight:700; letter-spacing:.2px; font-size:12px}
+    .title{margin:12px 0 8px; font-size:40px; line-height:1.05; letter-spacing:-.5px}
+    .title strong{color:var(--gold)}
+    .subtitle{margin:0; color:var(--muted)}
+
+    .cta-row{display:flex; flex-wrap:wrap; gap:12px; margin-top:18px}
+    .btn{--c:var(--gold); -webkit-tap-highlight-color: transparent; text-decoration:none; display:inline-flex; align-items:center; gap:10px; font-weight:700; padding:14px 18px; border-radius:14px; border:1px solid rgba(255,255,255,.18); background:linear-gradient(90deg,var(--c), var(--sunset)); color:#0a0f1f; box-shadow:0 10px 24px rgba(0,0,0,.35); transition:transform .15s ease, box-shadow .15s ease}
+    .btn:hover{transform:translateY(-3px); box-shadow:0 18px 36px rgba(0,0,0,.45)}
+    .btn.ghost{background:rgba(255,255,255,.06); color:var(--gold); border:1px dashed rgba(255,204,0,.35)}
+
+    .hero-right{display:flex; align-items:center; justify-content:center; padding:28px}
+    .card{width:100%; max-width:360px; background:rgba(13,20,40,.75); border:1px solid rgba(255,255,255,.08); border-radius:16px; padding:18px}
+    .card h3{margin:0 0 10px; font-size:16px; color:var(--gold)}
+    .list{display:flex; flex-direction:column; gap:10px}
+    .item{display:flex; gap:10px; font-size:14px; color:var(--muted)}
+    .dot{width:10px; height:10px; border-radius:50%; background:var(--gold); margin-top:6px; box-shadow:0 0 0 3px rgba(255,204,0,.12)}
+
+    .grid{display:grid; grid-template-columns: repeat(3,1fr); gap:16px; margin-top:16px}
+    .feature{background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.06); border-radius:14px; padding:14px; text-align:center}
+    .feature b{color:var(--gold)}
+
+    .promo{margin-top:14px; background:linear-gradient(90deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); border:1px solid rgba(255,255,255,.06); border-radius:12px; padding:10px; text-align:center; color:var(--muted)}
+
+    footer{margin-top:14px; text-align:center; color:var(--muted); font-size:12px}
+
+    /* Floating WhatsApp */
+    .wa-float{position:fixed; right:18px; bottom:18px; background:#25D366; color:white; width:56px; height:56px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:28px; text-decoration:none; box-shadow:0 12px 26px rgba(0,0,0,.35)}
+
+    /* Responsive */
+    @media (max-width: 980px){
+      body{padding:14px}
+      .hero-inner{grid-template-columns: 1fr}
+      .title{font-size:34px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero" role="banner" aria-label="Jugá y Ganá">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <span class="badge">🎰 JUGÁ Y GANÁ • Bienvenida exclusiva</span>
+          <h1 class="title">Pedí tu <strong>BONO</strong> y <strong>USUARIO GRATIS</strong> ahora</h1>
+          <p class="subtitle">Atención 24/7 • Depósitos seguros • Casino legal • Juego responsable</p>
+
+          <div class="cta-row">
+            <a class="btn" href="https://wa.me/5491112345678?text=quiero%20mi%20bono%20y%20usuario%20gratis%20%E2%80%94%20Bono%20de%20bienvenida" target="_blank">💰 Bono de bienvenida</a>
+            <a class="btn" href="https://wa.me/5491112345678?text=quiero%20mi%20bono%20y%20usuario%20gratis%20%E2%80%94%20Bono%20por%20dep%C3%B3sito" target="_blank">🎲 Bono por depósito</a>
+            <a class="btn ghost" href="https://wa.me/5491112345678?text=quiero%20mi%20bono%20y%20usuario%20gratis%20%E2%80%94%20Usuario%20VIP%20gratis" target="_blank">👑 Usuario VIP gratis</a>
+          </div>
+
+          <div class="grid" aria-label="Beneficios">
+            <div class="feature"><b>⚡ Rápido</b><div>Alta en minutos por WhatsApp</div></div>
+            <div class="feature"><b>🔒 Seguro</b><div>Métodos confiables y soporte real</div></div>
+            <div class="feature"><b>🎁 Promos</b><div>Bonos exclusivos por recargas</div></div>
+          </div>
+        </div>
+
+        <aside class="hero-right" aria-label="Info y reglas">
+          <div class="card">
+            <h3>Reglas rápidas</h3>
+            <div class="list">
+              <div class="item"><span class="dot"></span><div>Promoción válida para mayores de 18 años.</div></div>
+              <div class="item"><span class="dot"></span><div>Un bono por persona. Sujeto a verificación.</div></div>
+              <div class="item"><span class="dot"></span><div>Aplican términos y condiciones enviados por WhatsApp.</div></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      Juego responsable • Si necesitás ayuda, consultá líneas de asistencia locales.
+    </footer>
+  </div>
+
+  <a class="wa-float" href="https://wa.me/5491112345678?text=quiero%20mi%20bono%20y%20usuario%20gratis" target="_blank" aria-label="Abrir WhatsApp">💬</a>
+</body>
+</html>
